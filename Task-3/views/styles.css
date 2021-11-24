@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+body{
+    
+    height: 500px;
+    
+}
+
+form{
+    
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 0px;
+}
+
+h1{
+    font-family: 'Libre baskerville';
+    color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    color: #ff00aa;
+    margin: 20px;
+    height: 35px;
+    width: 35%;
+    background: linear-gradient(45deg, navy, transparent);
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+
+
+
+.btn{
+    font-family: 'Libre baskerville';
+    background: linear-gradient(90deg, royalblue, lightgreen);
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* margin: 5px; */
+}
+
+footer{
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: whitesmoke;
+}

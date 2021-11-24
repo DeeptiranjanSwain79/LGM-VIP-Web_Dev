@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+body{
+    background: linear-gradient(90deg, #015216, #f50ba7);
+}
+
+.drop{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+h1{
+    font-family: 'Libre baskerville';
+    color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop a{
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+    color: #ffe600;
+    padding: 10px;
+    margin: 15px;
+    font-size: 3rem;
+    background: linear-gradient(45deg, blue, transparent);
+    border-radius: 20px;
+}
+
+.drop a:hover{
+    color: #ff0000;
+}
+
+
+
+footer{
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: whitesmoke;
+}
